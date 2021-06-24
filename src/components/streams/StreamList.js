@@ -5,7 +5,7 @@ import { fetchStreams } from "../../actions";
 
 class StreamList extends React.Component {
   componentDidMount() {
-    console.log("StreamList componentDidMount() this.props: ", this.props);
+    // console.log("StreamList componentDidMount() this.props: ", this.props);
     this.props.fetchStreams();
   }
 
